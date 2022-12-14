@@ -1,0 +1,49 @@
+header {
+    background-image: url(../imgs/banner-header\(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 45vw;
+    width: 100%;
+    position: relative;
+}
+
+.itens-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: -20%;
+    right: 12%;
+}
+
+.star-header {
+    position: relative;
+    width: 35%;
+    left: 40%;
+}
+
+.avatar-header {
+    width: 75%;
+    z-index: 1;
+}
+
+.wars-header {
+    position: relative;
+    width: 35%;
+    right: 15%;
+}
+
+.crie-legiao {
+    position: absolute;
+    width: 10%;
+    right: 5%;
+    top: 65%;
+}
+
+@media screen and (max-width:1500px) {
+    .itens-header {
+        bottom: -10%;
+    }
+}

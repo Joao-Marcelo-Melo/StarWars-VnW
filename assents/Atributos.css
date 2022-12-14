@@ -1,0 +1,267 @@
+#atributos {
+    background-color: #1C1C1C;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-atributo {
+    color: #fff;
+    font-size: 2.5rem;
+    text-indent: 13rem;
+    margin-top: 10%;
+}
+
+.box-imagens-atributos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.box-imagens-atributos-container{
+    position: relative;
+}
+
+.box-imagens-atributos-container img {
+    width: 100%;
+}
+
+.background-hover-img1 {
+    height: 100%;
+    width: 100%;
+    background-color: #892be29a;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: 1s;
+}
+
+.figcaption-firts-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    opacity: 0;
+    background-image: url(../imgs/bord_card.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    transform: scale(0);
+    z-index: 2;
+}
+
+.figcaption-firts-img h2 {
+    font-size: clamp(1.3rem, 2.5vw, 3rem);
+    width: 10vw;
+    color: #fff;
+}
+
+.figcaption-firts-img p {
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    color: #fff;
+}
+
+.figcaption-firts-img button {
+    width: 50%;
+    padding: 1.2rem 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.185) 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border: solid 2px #fff;
+    font-size: clamp(1rem, 0.7vw, 1.5rem);
+    color: #fff;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.figcaption-firts-img button:hover {
+    transform: scale(1.2);
+    background-position: left bottom;
+}
+
+figure:hover .background-hover-img1 {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+figure:hover .figcaption-firts-img {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.background-hover-img2 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.493);
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: 1s;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    opacity: 0;
+    background-image: url(../imgs/bord_card.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    transform: scale(0);
+    z-index: 2;
+}
+
+figcaption h2 {
+    font-size: clamp(1.3rem, 0.3vw, 1.7rem);
+    color: #fff;
+}
+
+figcaption p {
+    font-size: clamp(0.7rem, 0.7vw, 1.5rem);
+    color: #fff;
+}
+
+figcaption button {
+    width: 50%;
+    padding: 0.5rem 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.185) 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border: solid 2px #fff;
+    font-size: clamp(1rem, 0.7vw, 1.5rem);
+    color: #fff;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+figcaption button:hover {
+    transform: scale(1.2);
+    background-position: left bottom;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+figure:hover .background-hover-img2 {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.background-hover-img3 {
+    height: 100%;
+    width: 100%;
+    background-color: #ff8c006e;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: 1s;
+}
+
+figure:hover .background-hover-img3 {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.background-hover-img4 {
+    height: 100%;
+    width: 100%;
+    background-color: #00ff007a;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: 1s
+}
+
+figure:hover .background-hover-img4 {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.background-hover-img5 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.5);
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: 1s
+}
+
+figure:hover .background-hover-img5 {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.box-banner-hierarquia {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.banner-hierarquia {
+    width: 88vw;
+}
+
+.banner h2{
+    font-size: clamp(1rem, 5vw, 3rem);
+    color: #fff;
+    margin-bottom: 8%;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (max-width:1000px) {
+    #atributos {
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo-atributo {
+        text-indent: 0;
+    }
+
+    .box-imagens-atributos {
+        flex-direction: column;
+    }
+
+    .figcaption-firts-img button {
+        padding: 0.5rem 0;
+    }
+
+    .figcaption-firts-img h2 {
+        font-size: clamp(1.3rem, 0.3vw, 1.7rem);
+    }
+}

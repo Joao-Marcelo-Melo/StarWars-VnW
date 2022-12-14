@@ -1,0 +1,98 @@
+footer {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.box-left-footer {
+    background-color: #ff5a56;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    z-index: 1;
+}
+
+.box-left-footer h2 {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 800;
+    color: #fff;
+}
+
+.comentario-footer {
+    font-size: clamp(0.9rem, 1.3vw, 2.2rem);
+    color: #fff;
+    width: 60%;
+}
+
+.icons-footer img {
+    width: 30%;
+    transition: 0.7s;
+    cursor: pointer;
+    
+}
+
+.icons-footer img:hover{
+    transform: scale(1.1);
+}
+
+.icons-footer::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 3px;
+    margin-top: 5%;
+    background-color: black;
+}
+
+.star-wars-footer {
+    width: 30%;
+}
+
+.box-avatar-footer {
+    width: 65%;
+    position: relative;
+    right: 10%;
+    z-index: 2;
+}
+
+.avatar-footer {
+    width: 100%;
+}
+
+@media screen and (max-width:1500px) {
+    .box-left-footer {
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width:925px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20%;
+    }
+
+    .box-left-footer  {
+        width: 100%;
+        height: 70vh;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box-avatar-footer {
+        width: 100%;
+        right: 0;
+    }
+
+
+    .icons-footer::after {
+        display: none;
+    }
+
+}
