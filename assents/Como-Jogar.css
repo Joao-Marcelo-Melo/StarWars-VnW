@@ -8,7 +8,7 @@
 .como-jogar-img {
     position: relative;
     top: -7vw;
-    left: 5vw;
+    left: 2vw;
 }
 
 .avatar-como-jogar {
@@ -27,6 +27,7 @@
 .btns {
     display: flex;
     justify-content: space-evenly;
+    gap: 3%;
 }
 
 .box-btn {
@@ -120,6 +121,6 @@
     }
 
     .box-btn p::after {
-        margin-bottom: 20%;
+        display: none;
     }
 }
