@@ -5,6 +5,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+::selection {
+    background-color: red;
+    color: white;
+}
+
 body::-webkit-scrollbar-thumb  {
     background-color: red;
 }
