@@ -1,6 +1,6 @@
-<h1 align="center"><a href="https://joao-marcelo-melo.github.io/StarWars-VnW/ target="_blank">Star Wars-VnW</a></h1>
+<h1 align="center"><a href="https://joao-marcelo-melo.github.io/StarWars-VnW/" target="_blank">Star Wars-VnW</a></h1>
 
-<a href="https://joao-marcelo-melo.github.io/StarWars-VnW/ target="_blank">![Capturar](https://user-images.githubusercontent.com/102369935/212066202-39b9c2e2-2390-4d0d-8bb2-8c90a55161e9.PNG)</a>
+<a href="https://joao-marcelo-melo.github.io/StarWars-VnW/" target="_blank">![Capturar](https://user-images.githubusercontent.com/102369935/212066202-39b9c2e2-2390-4d0d-8bb2-8c90a55161e9.PNG)</a>
 
 <h2>Seções</h2>
 
